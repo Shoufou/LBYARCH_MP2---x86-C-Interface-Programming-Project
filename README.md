@@ -4,7 +4,7 @@ MP2 Output for LBYARCH course
 LBYARCH2_MP/
 ├── src/
 │   ├── main.c                 
-│   └── daxpy_asm.s           
+│   └── daxpy_asm.s
 ├── include/
 │   └── daxpy.h               
 ├── build/                    
