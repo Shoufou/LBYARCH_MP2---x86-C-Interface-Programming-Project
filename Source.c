@@ -102,7 +102,7 @@ int main(int argc, char* argv[]) {
 	daxpy_c(n, A, vectorX, vectorY, vectorZ_C);
 	int correct = 1;
 
-	if (n > 10) {
+	if (n > 10 && n!=0) {
 		printf("Vector Z calculated with asm code: ");
 		for (int i = 0; i < 10; i++) {
 			printf("%1.2lf ", vectorZ_asm[i]);
@@ -123,7 +123,7 @@ int main(int argc, char* argv[]) {
 		printf("\nx86-64 Correct: %s\n", correct ? "YES" : "NO");
 	}
 	
-	else {
+	else if(n < 10 && n != 0) {
 		printf("\nVector Z calculated with asm code: ");
 		for (int i = 0; i < n; i++) {
 			printf("%1.2lf ", vectorZ_asm[i]);
