@@ -124,7 +124,7 @@ int main(int argc, char* argv[]) {
 	}
 	
 	else {
-		printf("Vector Z calculated with asm code: ");
+		printf("\nVector Z calculated with asm code: ");
 		for (int i = 0; i < n; i++) {
 			printf("%1.2lf ", vectorZ_asm[i]);
 		}
@@ -142,6 +142,7 @@ int main(int argc, char* argv[]) {
 			}
 		}
 		printf("\nx86-64 Correct: %s\n", correct ? "YES" : "NO");
+		printf("C Correct: %s\n", correct ? "YES" : "NO");
 	}
 
 	//2^20 size input testing
@@ -175,9 +176,14 @@ int main(int argc, char* argv[]) {
 	time_used_c /= 30;
 
 
-	printf("\nVector Z with 2^20 input: ");
+	printf("\nVector Z with 2^20 input (asm): ");
 	for (int i = 0; i < 10; i++) {
 		printf("%1.2lf ", vectorZ_asm[i]);
+	}
+
+	printf("\nVector Z with 2^20 input (C): ");
+	for (int i = 0; i < 10; i++) {
+		printf("%1.2lf ", vectorZ_C[i]);
 	}
 
 	correct = 1;
@@ -188,8 +194,9 @@ int main(int argc, char* argv[]) {
 		}
 	}
 	printf("\nx86-64 Correct: %s\n", correct ? "YES" : "NO");
-	printf("Time taken in assembly (averaged out over 30 runs): %lf seconds", time_used_asm);
-	printf("\nTime taken in C (averaged out over 30 runs): %lf seconds\n", time_used_c);
+	printf("xC Correct: %s\n", correct ? "YES" : "NO");
+	printf("Time taken in assembly (averaged out over 30 runs): %lf seconds\n", time_used_asm);
+	printf("Time taken in C (averaged out over 30 runs): %lf seconds\n", time_used_c);
 
 	//2^24 size input testing
 	n = 16777216;
@@ -224,9 +231,14 @@ int main(int argc, char* argv[]) {
 	time_used_c /= 30;
 
 
-	printf("\nVector Z with 2^24 input: ");
+	printf("\nVector Z with 2^24 input (asm): ");
 	for (int i = 0; i < 10; i++) {
 		printf("%1.2lf ", vectorZ_asm[i]);
+	}
+
+	printf("\nVector Z with 2^24 input (C): ");
+	for (int i = 0; i < 10; i++) {
+		printf("%1.2lf ", vectorZ_C[i]);
 	}
 
 	correct = 1;
@@ -237,6 +249,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
 	printf("\nx86-64 Correct: %s\n", correct ? "YES" : "NO");
+	printf("C Correct: %s\n", correct ? "YES" : "NO");
 	printf("Time taken in assembly (averaged out over 30 runs): %lf seconds", time_used_asm);
 	printf("\nTime taken in C (averaged out over 30 runs): %lf seconds\n", time_used_c);
 
@@ -273,9 +286,14 @@ int main(int argc, char* argv[]) {
 	time_used_c /= 30;
 
 
-	printf("\nVector Z with 2^28 input: ");
+	printf("\nVector Z with 2^28 input (asm): ");
 	for (int i = 0; i < 10; i++) {
 		printf("%1.2lf ", vectorZ_asm[i]);
+	}
+
+	printf("\nVector Z with 2^28 input (C): ");
+	for (int i = 0; i < 10; i++) {
+		printf("%1.2lf ", vectorZ_C[i]);
 	}
 
 	correct = 1;
@@ -286,6 +304,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
 	printf("\nx86-64 Correct: %s\n", correct ? "YES" : "NO");
+	printf("C Correct: %s\n", correct ? "YES" : "NO");
 	printf("Time taken in assembly (averaged out over 30 runs): %lf seconds", time_used_asm);
 	printf("\nTime taken in C (averaged out over 30 runs): %lf seconds\n", time_used_c);
 	return 0;
