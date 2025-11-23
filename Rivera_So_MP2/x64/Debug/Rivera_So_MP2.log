@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (Rivera_So_MP2\x64\Debug\) contains files shared from another project (testing.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Performing Custom Build Tools
+  C_daxpy.c
+  Source.c
+  Generating Code...
+  Rivera_So_MP2.vcxproj -> C:\Users\river\source\repos\Rivera_So_MP2\x64\Debug\Rivera_So_MP2.exe
