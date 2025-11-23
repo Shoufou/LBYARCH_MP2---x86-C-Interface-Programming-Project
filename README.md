@@ -2,3 +2,8 @@
 MP2 Output for LBYARCH course
 
 HOW TO COMPILE:
+
+Screnshots:
+
+Video Demo:
+
