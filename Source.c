@@ -155,7 +155,7 @@ int main(int argc, char* argv[]) {
 	//initializes vector Z in memory
 	vectorZ_asm = (double*)_aligned_malloc(n * sizeof(double), 32);
 	vectorZ_C = (double*)_aligned_malloc(n * sizeof(double), 32);
-	for (int i = 0; i < n - 1; i++) {
+	for (int i = 0; i < n; i++) {
 		vectorX[i] = i;
 		vectorY[i] = i;
 	}
@@ -210,7 +210,7 @@ int main(int argc, char* argv[]) {
 	//initializes vector Z in memory
 	vectorZ_asm = (double*)_aligned_malloc(n * sizeof(double), 32);
 	vectorZ_C = (double*)_aligned_malloc(n * sizeof(double), 32);
-	for (int i = 0; i < n - 1; i++) {
+	for (int i = 0; i < n; i++) {
 		vectorX[i] = i;
 		vectorY[i] = i;
 	}
@@ -265,7 +265,7 @@ int main(int argc, char* argv[]) {
 	//initializes vector Z in memory
 	vectorZ_asm = (double*)_aligned_malloc(n * sizeof(double), 32);
 	vectorZ_C = (double*)_aligned_malloc(n * sizeof(double), 32);
-	for (int i = 0; i < n - 1; i++) {
+	for (int i = 0; i < n; i++) {
 		vectorX[i] = i;
 		vectorY[i] = i;
 	}
