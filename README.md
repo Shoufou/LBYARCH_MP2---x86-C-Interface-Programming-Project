@@ -2,7 +2,9 @@
 MP2 Output for LBYARCH course
 
 # How to Compile:
-
+1. Open the final_project folder
+2. Open the .sln file with visual studio
+3. Run the soruce.c file
 
 # Time comparison and explanation
 <table>
