@@ -7,7 +7,8 @@ MP2 Output for LBYARCH course
 # Time comparison and explanation
 | Number of Inputs | Average time over 30 function calls (measured in seconds|
 |------------------|---------------------------------------------------------|
-|------------------|      Assembly       |               C                   |
+||      Assembly       |               C                   |
+|----------------------|-----------------------------------|
 |2^20|
 |2^24|
 |2^28|
