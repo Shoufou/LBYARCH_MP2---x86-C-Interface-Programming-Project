@@ -1,9 +1,13 @@
 # LBYARCH_MP2---x86-C-Interface-Programming-Project
 MP2 Output for LBYARCH course
+![specs](https://github.com/user-attachments/assets/2e53b89f-089a-438e-bf71-64f383c25c44)
 
 ### GROUP MEMBERS
 - Rivera, Paolo
-- So, Jazlyn 
+- So, Jazlyn
+
+# Specs
+
 
 # How to Compile:
 1. Open the final_project folder
