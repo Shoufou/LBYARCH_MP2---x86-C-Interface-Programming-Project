@@ -21,7 +21,7 @@ MP2 Output for LBYARCH course
     <th colspan="2">Average time over 30 function calls</th>
   </tr>
   <tr>
-    <th>Number of Inputs</th>
+    <th>Vector Size</th>
     <th>Assembly</th>
     <th>C</th>
   </tr>
