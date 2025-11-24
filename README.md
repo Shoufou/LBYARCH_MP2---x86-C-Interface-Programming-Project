@@ -1,6 +1,10 @@
 # LBYARCH_MP2---x86-C-Interface-Programming-Project
 MP2 Output for LBYARCH course
 
+### GROUP MEMBERS
+Rivera, Paolo
+So, Jazlyn 
+
 # How to Compile:
 1. Open the final_project folder
 2. Open the .sln file with visual studio
