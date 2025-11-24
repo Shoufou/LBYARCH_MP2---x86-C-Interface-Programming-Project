@@ -2,8 +2,8 @@
 MP2 Output for LBYARCH course
 
 ### GROUP MEMBERS
-Rivera, Paolo
-So, Jazlyn 
+- Rivera, Paolo
+- So, Jazlyn 
 
 # How to Compile:
 1. Open the final_project folder
